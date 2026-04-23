@@ -3,7 +3,7 @@ version: "3.7"
 services:
   wordpress:
     image: wordpress:latest
-    container_name: wordpress-local-container
+    container_name: nextform-local-container
     ports:
       - "8080:80" # localhost:8080 でWordPressにアクセス
     environment:
@@ -20,7 +20,7 @@ services:
 
   db:
     image: mariadb:latest # MySQLの代わりにMariaDBを使用
-    container_name: mariadb-local-container
+    container_name: mariadb-nextform-container
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: example_db
