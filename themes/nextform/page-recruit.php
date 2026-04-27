@@ -10,7 +10,6 @@
 <!-- primary -->
 <main id="page-main" class="page-main">
     <div class="">
-
         <!-- breadcrumb -->
         <?php get_template_part( 'template-parts/breadcrumb', null, [
             'items' => [
@@ -18,22 +17,20 @@
                 [ 'label' => '採用情報', 'url' => home_url( '/recruit/' ) ],
             ],
         ] ); ?>
-
         <div class="page-body page-recruit">
-
             <div class="catch low-container">
                 <h4 class="catch-title">あなたの「やってみたい」<br class="catch-br">を応援します。</h4>
                 <p class="catch-text">
-                    障がいのある利用者さんの生活に寄り添うお仕事です。nextformでは、「その人らしく、住み続けられる福祉の追求」を理念に、一人ひとりに向き合ったサービスを提供しています。その想いをともに実現してくださる方を募集しています。<br>年齢・性別不問。人と関わることが好きな方、福祉が未経験の方もベテランスタッフがしっかりサポートします。ぜひ一緒に働きましょう。
+                    訪問看護・通所サービスを通じて、利用者さんの暮らしに寄り添うお仕事です。nextformでは、「その人らしく、住み慣れた場所で生き続けられる福祉の追求」を理念に、一人ひとりに向き合ったサービスを提供しています。その想いをともに実現してくださる方を募集しています。<br>年齢・性別不問。人と関わることが好きな方、福祉が未経験の方もベテランスタッフがしっかりサポートします。ぜひ一緒に働きましょう。
                 </p>
             </div>
 
             <div class="job low-container">
                 <h3 class="title-low title-low-job">募集要項</h3>
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                    <div class="page-content">
-                        <?php the_content(); ?>
-                    </div>
+                <div class="page-content">
+                    <?php the_content(); ?>
+                </div>
                 <?php endwhile; endif; ?>
             </div>
 

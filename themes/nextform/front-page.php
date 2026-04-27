@@ -18,7 +18,7 @@
 <!-- service -->
 <section class="col-o down-to-top">
     <div class="col-o-container">
-        <h2 class="top-title top-title-service">障がい者グループホーム<br>「ネクストフォーム」</h2>
+        <h2 class="top-title top-title-service">訪問看護・通所サービス<br>「ネクストフォーム」</h2>
         <div class="col-o-inner">
             <div class="col-o-img">
                 <div class="">
@@ -27,23 +27,23 @@
             </div>
             <div class="col-o-sentence">
                 <div class="col-o-title">
-                    <h3>自分らしい暮らしと働き方を。<br class="col-o-br">あなたの毎日に、<br class="col-o-br">寄り添い続けます。</h3>
+                    <h3>住み慣れた場所で、<br class="col-o-br">あなたらしく生きる。<br class="col-o-br">その暮らしを、支えます。</h3>
                 </div>
                 <div class="col-o-text">
-                    <p>"その人らしく、ここで暮らし続けられる"──そのための福祉を、私たちは追い求めています。食事・掃除・服薬管理から、外出同行・役所手続きの代行まで、生活全般にわたる直接支援と相談支援を提供します。練馬小竹町という地域の中で、利用者さんが安心感と生きがいを持って暮らせるよう、スタッフ一同、全力で取り組んでいます。
+                    <p>住み慣れたご自宅で安心して療養生活を続けられるよう、看護師・理学療法士・作業療法士が主治医の指示のもと訪問いたします。健康状態の観察から医療処置・リハビリテーション・精神科訪問看護まで、幅広いニーズにお応えし、ご利用者さまとご家族の生活全体を支えます。
                     </p>
                 </div>
                 <div class="col-o-btn-wrapper">
                     <div class="fade">
-                        <a href="<?php echo esc_url( home_url( '/group-home' ) ); ?>" class="col-o-btn">詳しく見る</a>
+                        <a href="<?php echo esc_url( home_url( '/homecare' ) ); ?>" class="col-o-btn">詳しく見る</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-o-content">
-            <h4 class="col-o-content-title">障がい者グループホームとは</h4>
+            <h4 class="col-o-content-title">訪問看護とは</h4>
             <p class="col-o-content-text">
-                障がい者グループホームとは、さまざまな障がいをお持ちの方が、スタッフによる生活・健康管理のサポートを受けながら、共に暮らす住まいです。ご利用者さんにとって"第二の我が家"であり、お互いが支え合いながら日々の生活を営んでいます。平日の日中は職場や就労継続支援事業所、医療機関のデイケアなどに通い、帰宅後は食事・入浴など、ごく普通の生活を送っていただけます。お部屋はそれぞれ個室をご用意し、食堂やお風呂などは住居内の共有スペースとしてご利用いただけます。
+                訪問看護とは、主治医が必要と認めた方のご自宅に、看護師や理学療法士・作業療法士が訪問し、医療・看護・リハビリのサービスを提供するものです。退院後の医療管理が必要な方や、自宅での療養生活にご不安のある方、精神的なサポートが必要な方など、様々なご状況に対応します。要介護・要支援認定を受けた方や特定疾病をお持ちの方（40歳以上65歳未満）もご利用いただけます。
             </p>
         </div>
     </div>
@@ -61,7 +61,7 @@
                     <h2 class="top-title top-title-about">nextformについて</h2>
                 </div>
                 <div class="col-i-text">
-                    <p>ひとりひとりが、自分の意思で明日を選べる社会へ。<br class="col-i-br">株式会社nextformは、障がい者グループホームの運営を通じて、その実現をともに目指してまいります。
+                    <p>ひとりひとりが、自分の意思で明日を選べる社会へ。<br class="col-i-br">株式会社nextformは、訪問看護・通所サービスの提供を通じて、その実現をともに目指してまいります。
                     </p>
                 </div>
                 <div class="col-i-btn-wrapper">
@@ -83,7 +83,7 @@
                     <h2 class="top-title top-title-recruit">採用情報</h2>
                 </div>
                 <div class="col-j-text">
-                    <p>株式会社nextformでは、障がいのある利用者さんの生活を共に支えてくださる仲間を随時募集しています。<br
+                    <p>株式会社nextformでは、訪問看護・通所サービスを通じて利用者さんの暮らしを共に支えてくださる仲間を随時募集しています。<br
                             class="col-j-br">福祉の仕事を通して、誰かの「明日」に関わってみませんか。</p>
                 </div>
                 <div class="col-j-btn-wrapper">
@@ -108,7 +108,7 @@
         </div>
         <div class="cta-c-container">
             <div class="cta-c-text">
-                <p>施設見学や入居についてのご相談など、<br>こちらからお気軽にご連絡ください。</p>
+                <p>訪問看護やサービスについてのご相談など、<br>こちらからお気軽にご連絡ください。</p>
             </div>
             <div class="cta-c-btn-wrapper">
                 <a href="tel:047-314-1520" class="cta-c-btn -a">

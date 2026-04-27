@@ -31,13 +31,13 @@
                     <li class="header-a-nav-item"><a class="header-a-nav-item-link"
                             href="<?php echo esc_url( home_url( '/about' ) ); ?>">nextformについて</a></li>
                     <li class="header-a-nav-item"><a class="header-a-nav-item-link"
-                            href="<?php echo esc_url( home_url( '/group-home' ) ); ?>">グループホームについて</a></li>
+                            href="<?php echo esc_url( home_url( '/homecare' ) ); ?>">訪問看護について</a></li>
                     <li class="header-a-nav-item"><a class="header-a-nav-item-link"
                             href="<?php echo esc_url( home_url( '/recruit' ) ); ?>">採用情報</a></li>
                 </ul>
                 <ul class="drawer-menu header-a-nav-list drawer-menu-sp">
                     <div class="drawer-menu-sp-container">
-                        <p class="drawer-menu-text drawer-sp">施設見学や入居についてのご相談など、<br>こちらからお気軽にご連絡ください。</p>
+                        <p class="drawer-menu-text drawer-sp">訪問看護やサービスについてのご相談など、<br>こちらからお気軽にご連絡ください。</p>
                         <li class="header-a-tel">
                             <a class="header-a-tel-link" href="tel:080-2559-3297">
                                 <span class="header-a-tel-icon01">080–2559–3297</span>

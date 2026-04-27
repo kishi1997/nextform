@@ -43,7 +43,7 @@
                     <br>
                     「その人らしく、住み続けられる福祉の追求」を法人理念に掲げ、障がいという個性を持ちながらも、住み慣れた地域で自分らしく暮らせる環境づくりに取り組んでいます。<br>
                     <br>
-                    既存の制度やグループホームの枠組みにとらわれることなく、利用者の方お一人おひとりのニーズに向き合いながら、地域福祉のさらなる充実を目指してまいります。
+                    既存の制度の枠組みにとらわれることなく、利用者の方お一人おひとりのニーズに向き合いながら、訪問看護・通所サービスを通じた地域福祉のさらなる充実を目指してまいります。
                 </p>
                 <p class="ab-message-name">代表取締役　小宮 夏</p>
             </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="ab-company-row">
                     <div class="ab-company-th">事業内容</div>
-                    <div class="ab-company-td">障がい者グループホームの運営(精神障害‧知的障害)</div>
+                    <div class="ab-company-td">訪問看護・通所系障がい福祉サービスの提供</div>
                 </div>
                 <div class="ab-company-row">
                     <div class="ab-company-th">関連企業</div>
@@ -105,7 +105,7 @@
         </div>
         <div class="cta-c-container">
             <div class="cta-c-text">
-                <p>施設見学や入居についてのご相談など、<br>こちらからお気軽にご連絡ください。</p>
+                <p>訪問看護やサービスについてのご相談など、<br>こちらからお気軽にご連絡ください。</p>
             </div>
             <div class="cta-c-btn-wrapper">
                 <a href="tel:080-2559-3297" class="cta-c-btn -a">
