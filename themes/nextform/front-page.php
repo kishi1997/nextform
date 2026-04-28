@@ -2,6 +2,12 @@
 
 <!-- kv -->
 <div class="kv-a">
+    <span class="kv-deco kv-deco-1" aria-hidden="true"></span>
+    <span class="kv-deco kv-deco-2" aria-hidden="true"></span>
+    <span class="kv-deco kv-deco-4" aria-hidden="true"></span>
+    <span class="kv-deco kv-deco-5" aria-hidden="true"></span>
+    <span class="kv-deco kv-deco-7" aria-hidden="true"></span>
+    <span class="kv-deco kv-deco-8" aria-hidden="true"></span>
 
     <div class="kv-a-inner">
         <div class="kv-a-left">

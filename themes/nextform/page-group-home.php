@@ -76,7 +76,6 @@
                     alt="ネクストフォームのサービス" class="service-img">
             </picture>
         </div>
-
         <div class="list">
             <h3 class="title-low title-low-list">施設一覧</h3>
 
@@ -375,8 +374,6 @@
             </div>
 
         </div>
-
-
     </div>
 
 </main><!-- /primary -->

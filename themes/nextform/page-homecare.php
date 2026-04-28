@@ -5,6 +5,7 @@
     <div class="ab-hero-inner">
         <p class="ab-hero-en">HOME CARE</p>
         <h2 class="ab-hero-title">訪問看護について</h2>
+
     </div>
 </section>
 
@@ -19,111 +20,153 @@
     ] ); ?>
 
     <div class="page-body">
+        <!-- 訪問看護とは・対象となる方（統合セクション） -->
+        <div class="hc-intro">
+            <h3 class="title-low title-low-hcabout">訪問看護とは</h3>
+            <div class="hc-intro-body">
 
-        <div class="catch low-container">
-            <h4 class="catch-title catch-title-concept">住み慣れた場所で、<br class="catch-pc">あなたらしく生きる</h4>
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/concept.png"
-                alt="nextform 訪問看護について" class="catch-img">
+                <div class="hc-intro-main">
+                    <div class="hc-intro-img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/intro.png"
+                            alt="訪問看護とは">
+                    </div>
+                    <div class="hc-intro-text">
+                        <p>主治医が「訪問看護の利用が適切」と判断した方を対象に、看護師・理学療法士・作業療法士などの専門スタッフがご自宅へ伺い、療養上のケアや診療の補助を行うサービスです。</p>
+                        <p>要介護・要支援認定を受けた方、または特定疾病により継続した医療的支援が必要な方がご利用いただけます。</p>
+                        <p>退院後の在宅移行支援や医療的ケアが必要な方、療養生活でのアドバイスを求めている方、ご自宅でのリハビリを継続したい方など、様々なニーズに対応しております。</p>
+                    </div>
+                </div>
+
+                <div class="hc-intro-cards">
+                    <div class="hc-intro-card">
+                        <h4 class="hc-intro-card-title">対象となる方</h4>
+                        <p class="hc-intro-card-text">
+                            主治医が「訪問看護サービスの利用が必要」と認めた方が対象となります。要介護・要支援認定を受けた方、特定疾病が原因で介護を必要とする方（40歳以上65歳未満）、精神疾患をお持ちの方なども対象となります。まずはお気軽にご相談ください。
+                        </p>
+                    </div>
+                    <div class="hc-intro-card">
+                        <h4 class="hc-intro-card-title">こんな時にご活用ください</h4>
+                        <ul class="hc-intro-list">
+                            <li>退院後の医療管理が必要な方</li>
+                            <li>点滴や栄養管理が必要な方</li>
+                            <li>自宅での療養生活に不安を感じている方</li>
+                            <li>リハビリを続けたい方</li>
+                            <li>精神的なサポートが必要な方</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <div class="feature">
+        <!-- サービス内容 -->
+        <div class="hc-services">
             <h3 class="title-low title-low-feature">訪問看護サービスの特徴</h3>
-            <p class="feature-description">nextformの訪問看護は、住み慣れたご自宅で安心して療養生活を続けられるよう、<br class="feature-br">看護師・理学療法士・作業療法士が主治医の指示のもと訪問いたします。
+            <p class="feature-description">nextformの訪問看護は、住み慣れたご自宅で安心して療養生活を続けられるよう、<br
+                    class="feature-br">看護師・理学療法士・作業療法士が主治医の指示のもと訪問いたします。
             </p>
-            <div class="feature-wrap">
-                <div class="feature-item">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/feature_01.png"
-                        alt="訪問看護の特徴 健康状態の観察・管理" class="feature-img">
-                    <h3 class="feature-title feature-title01">健康状態の観察・管理</h3>
-                    <p class="feature-text">
-                        定期的な訪問により、バイタルサインの測定や体調の変化を丁寧に確認します。病状の早期発見・早期対応を行い、安心できる在宅療養をサポートします。
-                    </p>
+            <div class="hc-services-wrap">
+                <div class="hc-services-item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare1.jpg"
+                        alt="健康状態の確認・観察" class="hc-services-img">
+                    <h3 class="hc-services-title hc-services-title01">健康状態の確認・観察</h3>
                 </div>
-                <div class="feature-item">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/feature_02.png"
-                        alt="訪問看護の特徴 医療処置・療養上のケア" class="feature-img">
-                    <h3 class="feature-title feature-title02">医療処置・療養上のケア</h3>
-                    <p class="feature-text">
-                        点滴・注射・褥瘡処置・カテーテル管理など、医師の指示に基づく医療処置を行います。退院後の在宅移行においても、安全で継続的なケアを提供します。
-                    </p>
+                <div class="hc-services-item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare2.jpg"
+                        alt="疾患・障がいに対する看護" class="hc-services-img">
+                    <h3 class="hc-services-title hc-services-title02">疾患・障がいに対する看護</h3>
                 </div>
-            </div>
-            <div class="feature-wrap">
-                <div class="feature-item">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/feature_03.png"
-                        alt="訪問看護の特徴 リハビリテーション" class="feature-img">
-                    <h3 class="feature-title feature-title03">リハビリテーション</h3>
-                    <p class="feature-text">
-                        理学療法士・作業療法士による自宅でのリハビリを提供します。身体機能の回復・維持を図り、日常生活の自立度を高めるための支援を行います。
-                    </p>
+                <div class="hc-services-item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare3.png"
+                        alt="ご家族への相談対応と技術指導" class="hc-services-img">
+                    <h3 class="hc-services-title hc-services-title03">ご家族への相談対応と技術指導</h3>
                 </div>
-                <div class="feature-item">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/feature_04.png"
-                        alt="訪問看護の特徴 精神科訪問看護" class="feature-img">
-                    <h3 class="feature-title feature-title04">精神科訪問看護</h3>
-                    <p class="feature-text">
-                        精神疾患をお持ちの方の自宅療養を支援します。服薬管理・生活リズムの安定・家族への相談対応など、精神的なケアと生活全般のサポートを行います。
-                    </p>
+                <div class="hc-services-item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare4.jpg"
+                        alt="療養環境の整備と生活援助" class="hc-services-img">
+                    <h3 class="hc-services-title hc-services-title04">療養環境の整備と生活援助</h3>
                 </div>
-            </div>
-            <div class="feature-wrap">
-                <div class="feature-item">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/feature_01.png"
-                        alt="訪問看護の特徴 介護家族への支援" class="feature-img">
-                    <h3 class="feature-title feature-title01">介護家族への支援</h3>
-                    <p class="feature-text">
-                        ご利用者さまだけでなく、介護するご家族の不安や疑問にも丁寧に対応します。介護技術の指導や精神的なサポートを通じて、家族全体での療養生活を支えます。
-                    </p>
+                <div class="hc-services-item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare5.jpg"
+                        alt="ご自宅でのリハビリテーション" class="hc-services-img">
+                    <h3 class="hc-services-title hc-services-title05">ご自宅でのリハビリテーション</h3>
                 </div>
-                <div class="feature-item">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/group-home/feature_02.png"
-                        alt="訪問看護の特徴 療養環境・生活支援" class="feature-img">
-                    <h3 class="feature-title feature-title02">療養環境・生活支援</h3>
-                    <p class="feature-text">
-                        住環境の確認や福祉用具の活用提案など、安全に在宅生活を続けられる環境づくりをお手伝いします。日常生活動作の援助も合わせて行います。
-                    </p>
+                <div class="hc-services-item">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare6.png"
+                        alt="こころの健康への支援" class="hc-services-img">
+                    <h3 class="hc-services-title hc-services-title06">こころの健康への支援</h3>
                 </div>
             </div>
         </div>
 
-        <div class="service">
-            <h3 class="title-low title-low-service">対象となる方</h3>
-            <div class="low-container">
-                <div class="col-o-content">
-                    <h4 class="col-o-content-title">訪問看護の対象者</h4>
-                    <p class="col-o-content-text">
-                        主治医が「訪問看護サービスの利用が必要」と認めた方が対象となります。要介護・要支援認定を受けた方、特定疾病が原因で介護を必要とする方（40歳以上65歳未満）、精神疾患をお持ちの方なども対象となります。まずはお気軽にご相談ください。
-                    </p>
-                    <h4 class="col-o-content-title" style="margin-top:32px;">こんな時にご活用ください</h4>
-                    <p class="col-o-content-text">
-                        退院後の医療管理が必要な方・点滴や栄養管理が必要な方・自宅での療養生活に不安を感じている方・リハビリを続けたい方・精神的なサポートが必要な方など、様々なご状況に対応いたします。
-                    </p>
-                </div>
-            </div>
-        </div>
+        <!-- ご利用の流れ -->
+        <div class="hc-flow">
+            <h3 class="title-low title-low-flow">ご利用の流れ</h3>
+            <div class="hc-flow-list">
 
-        <div class="list">
-            <h3 class="title-low title-low-list">ご利用の流れ</h3>
-
-            <div class="low-container">
-                <div class="flow-wrap" style="display:flex; flex-direction:column; gap:24px; max-width:700px; margin:0 auto;">
-                    <div class="flow-item flow-item01" style="padding:24px; background:#f8f8f8; border-left:4px solid #4CAF50;">
-                        <h5 class="flow-title">① ご相談・お問い合わせ</h5>
-                        <p class="flow-text">まずはお電話またはお問い合わせフォームよりご連絡ください。担当者が丁寧にご説明いたします。</p>
+                <div class="hc-flow-item">
+                    <div class="hc-flow-badge">
+                        <span class="hc-flow-badge-label">STEP</span>
+                        <span class="hc-flow-badge-num">1</span>
                     </div>
-                    <div class="flow-item flow-item02" style="padding:24px; background:#f8f8f8; border-left:4px solid #4CAF50;">
-                        <h5 class="flow-title">② 主治医への訪問看護指示書の依頼</h5>
-                        <p class="flow-text">訪問看護の開始には主治医からの「訪問看護指示書」が必要です。手続きのご案内もサポートいたします。</p>
-                    </div>
-                    <div class="flow-item flow-item03" style="padding:24px; background:#f8f8f8; border-left:4px solid #4CAF50;">
-                        <h5 class="flow-title">③ ご契約・サービス計画の作成</h5>
-                        <p class="flow-text">ご利用者さまのご状況に合わせたサービス計画を作成し、ご説明のうえご契約いただきます。</p>
-                    </div>
-                    <div class="flow-item flow-item04" style="padding:24px; background:#f8f8f8; border-left:4px solid #4CAF50;">
-                        <h5 class="flow-title">④ 訪問看護の開始</h5>
-                        <p class="flow-text">看護師・リハビリスタッフが定期的にご自宅を訪問します。ご希望の曜日・時間帯でスケジュールを調整いたします。</p>
+                    <div class="hc-flow-body">
+                        <h4 class="hc-flow-title">ケアマネジャーへのご相談</h4>
+                        <p class="hc-flow-sub">〈ご利用者様・ケアマネジャー〉</p>
+                        <p class="hc-flow-desc">まずは、担当のケアマネジャーに現状お困りのことをお伝えください。訪問看護の利用が適切かどうかを一緒に検討いたします。</p>
                     </div>
                 </div>
+                <div class="hc-flow-arrow"></div>
+
+                <div class="hc-flow-item">
+                    <div class="hc-flow-badge">
+                        <span class="hc-flow-badge-label">STEP</span>
+                        <span class="hc-flow-badge-num">2</span>
+                    </div>
+                    <div class="hc-flow-body">
+                        <h4 class="hc-flow-title">サービス提供可否の確認</h4>
+                        <p class="hc-flow-sub">〈ケアマネジャー・サービス提供事業者〉</p>
+                        <p class="hc-flow-desc">ケアマネジャーからnextformへご連絡いただき、ご利用者様の住所や介護状況などをもとにサービス提供が可能かどうかを確認いたします。</p>
+                    </div>
+                </div>
+                <div class="hc-flow-arrow"></div>
+
+                <div class="hc-flow-item">
+                    <div class="hc-flow-badge">
+                        <span class="hc-flow-badge-label">STEP</span>
+                        <span class="hc-flow-badge-num">3</span>
+                    </div>
+                    <div class="hc-flow-body">
+                        <h4 class="hc-flow-title">主治医への看護指示書依頼</h4>
+                        <p class="hc-flow-sub">〈サービス提供事業者・主治医〉</p>
+                        <p class="hc-flow-desc">ご利用者様の主治医へ訪問看護指示書の発行を依頼いたします。依頼を受けた医師は、nextformへ訪問看護指示書を送付します。</p>
+                    </div>
+                </div>
+                <div class="hc-flow-arrow"></div>
+
+                <div class="hc-flow-item">
+                    <div class="hc-flow-badge">
+                        <span class="hc-flow-badge-label">STEP</span>
+                        <span class="hc-flow-badge-num">4</span>
+                    </div>
+                    <div class="hc-flow-body">
+                        <h4 class="hc-flow-title">ケアプランの作成</h4>
+                        <p class="hc-flow-sub">〈ご利用者様・ご家族様・ケアマネジャー・サービス提供事業者〉</p>
+                        <p class="hc-flow-desc">ご利用者様の意向や状態、介護保険給付の限度額を考慮しながら、利用頻度やサービス内容など、最適なケアプランを作成いたします。</p>
+                    </div>
+                </div>
+                <div class="hc-flow-arrow"></div>
+
+                <div class="hc-flow-item">
+                    <div class="hc-flow-badge">
+                        <span class="hc-flow-badge-label">STEP</span>
+                        <span class="hc-flow-badge-num">5</span>
+                    </div>
+                    <div class="hc-flow-body">
+                        <h4 class="hc-flow-title">契約・サービス利用開始</h4>
+                        <p class="hc-flow-sub">〈ご利用者様・サービス提供事業者〉</p>
+                        <p class="hc-flow-desc">ケアプラン決定後、サービス提供事業者との契約を経て利用開始となります。開始日は、担当のケアマネジャーとnextformの担当者が話し合い、決定いたします。</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 

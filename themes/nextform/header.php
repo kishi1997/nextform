@@ -6,7 +6,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'drawer drawer--top' ); ?>>
+<body <?php body_class( array_filter( [ 'drawer', 'drawer--top', get_post_field( 'post_name', get_queried_object_id() ) ] ) ); ?>>
     <!-- body Start -->
 
     <!-- l-header -->
