@@ -5430,13 +5430,13 @@ input[type="button"] {
   &-title {
     font-size: 18px;
     font-weight: 700;
-    padding-top: 28px;
-    padding-bottom: 12px;
+    padding-top: 32px;
+    padding-bottom: 0;
     margin-bottom: 12px;
     letter-spacing: 0.04em;
     position: relative;
-    line-height: 1.3;
-    color: $primary-color;
+    line-height: 1.4;
+    color: #333;
     text-align: center;
     @include mq(xs) {
       font-size: 16px;
@@ -5448,22 +5448,15 @@ input[type="button"] {
       top: 0;
       font-size: 11px;
       font-weight: 700;
-      letter-spacing: 0.2em;
-      color: $primary-color;
+      letter-spacing: 0.15em;
+      color: #fff;
       white-space: nowrap;
+      background-color: $accent-color;
+      padding: 3px 14px;
+      border-radius: 20px;
       @include mq(xs) {
         font-size: 10px;
       }
-    }
-    &::after {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 40px;
-      height: 1px;
-      background-color: $primary-color;
-      content: "";
     }
     &01::before {
       content: "SERVICE 01";
@@ -5582,4 +5575,7 @@ input[type="button"] {
       font-size: 13px;
     }
   }
+}
+.home .col-o {
+  margin-top: 80px;
 }
