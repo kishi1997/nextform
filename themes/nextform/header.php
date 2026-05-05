@@ -14,7 +14,7 @@
         <div class="header-a-inner">
             <h1 class="header-a-logo">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_pc.png"
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-header-desktop.png"
                         alt="<?php bloginfo( 'name' ); ?>">
                 </a>
             </h1>
@@ -24,7 +24,7 @@
             </button>
             <nav class="drawer-nav header-a-nav">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="drawer-logo">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_sp.png"
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-header-mobile.png"
                         alt="<?php bloginfo( 'name' ); ?>">
                 </a>
                 <ul class="drawer-menu header-a-nav-list">

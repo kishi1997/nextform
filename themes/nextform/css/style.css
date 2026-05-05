@@ -385,7 +385,7 @@ div.colorbox img {
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url(../img/top/top_service_bg.png);
+  background-image: url(../img/top/top-service-background.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   z-index: 0;
@@ -635,9 +635,7 @@ div.colorbox img {
   letter-spacing: -0.02em;
   line-height: 1;
   pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
   z-index: 0;
 }
 .col-i::after {
@@ -850,9 +848,7 @@ div.colorbox img {
   letter-spacing: -0.02em;
   line-height: 1;
   pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  user-select: none;
   z-index: 0;
 }
 .col-j::after {
@@ -1180,7 +1176,7 @@ div.colorbox img {
 /* cta-c
 ================================*/
 .cta-c {
-  background: linear-gradient(135deg, rgba(31, 92, 68, 0.9), rgba(47, 143, 103, 0.82)), url(../img/contact_bg.png);
+  background: linear-gradient(135deg, rgba(31, 92, 68, 0.9), rgba(47, 143, 103, 0.82)), url(../img/contact-cta-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px 20px 240px;
@@ -2719,7 +2715,7 @@ page-recruit
 .job .wp-block-table td:first-child {
   padding-left: 20px;
   width: 192px;
-  color: #368f5a;
+  color: rgb(54.175, 142.825, 89.88125);
   font-size: 16px;
   font-weight: bold;
 }
@@ -2746,7 +2742,7 @@ page-recruit
   content: "";
   width: 100%;
   height: 100px;
-  background-image: url(../img/top/top_service_bg.png);
+  background-image: url(../img/top/top-service-background.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   top: 1px;
@@ -2861,7 +2857,7 @@ page-recruit
 }
 
 .apply {
-  background-image: url(../img/recruit/entry.jpg);
+  background-image: url(../img/recruit/recruit-entry-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3233,8 +3229,7 @@ input[type=button] {
   border-radius: 0;
   -webkit-box-sizing: content-box;
   -webkit-appearance: button;
-  -moz-appearance: button;
-       appearance: button;
+  appearance: button;
   border: none;
   box-sizing: border-box;
 }
@@ -3249,8 +3244,7 @@ input[type=button]:focus {
 
 .wpcf7 input[type=submit] {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   margin: 0 auto;
   max-width: 230px;
   width: 100%;
@@ -3268,8 +3262,7 @@ input[type=button]:focus {
 
 .wpcf7-previous {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   margin: 0 auto;
   max-width: 230px;
   width: 100%;
@@ -3888,7 +3881,7 @@ textarea {
     line-height: 1.41667;
   }
   .entry-published,
-.entry-updated {
+  .entry-updated {
     font-size: 11px;
   }
   .entry-updated {
@@ -4204,6 +4197,8 @@ textarea {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
@@ -4878,10 +4873,10 @@ textarea {
   background-image: url("../img/group-home/kv_low.jpeg");
 }
 .ab-hero--recruit {
-  background-image: url("../img/recruit/kv_low.jpeg");
+  background-image: url("../img/recruit/recruit-hero-background.jpeg");
 }
 .ab-hero--contact {
-  background-image: url("../img/contact/kv_low.jpeg");
+  background-image: url("../img/contact/contact-hero-background.jpeg");
 }
 
 .ab-hero-inner {
@@ -4917,15 +4912,6 @@ textarea {
   color: #fff;
   line-height: 1.25;
   letter-spacing: 0.04em;
-}
-
-@-webkit-keyframes ab-slide {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%;
-  }
 }
 
 @keyframes ab-slide {
@@ -5252,7 +5238,7 @@ textarea {
   transition: all 0.3s ease;
 }
 .thanks-page .btn:hover {
-  background: #6dc892;
+  background: rgb(109.42, 199.78, 145.815);
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(53, 130, 30, 0.3);
 }
@@ -5325,7 +5311,7 @@ textarea {
   color: #fff;
 }
 .confirm-page .confirm-page-content .contact-buttons input[type=submit]:hover {
-  background: #276116;
+  background: rgb(39.485, 96.85, 22.35);
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(53, 130, 30, 0.3);
 }
@@ -5355,12 +5341,13 @@ input[type=button] {
 
 .hc-intro {
   padding: 40px 20px 80px;
-  /* 上段：画像＋説明文 */
-  /* 下段：情報カード2枚並列 */
 }
 .hc-intro-body {
   max-width: 1080px;
   margin: 0 auto;
+}
+.hc-intro {
+  /* 上段：画像＋説明文 */
 }
 .hc-intro-main {
   display: flex;
@@ -5401,8 +5388,7 @@ input[type=button] {
 .hc-intro-img img {
   width: 100%;
   border-radius: 18px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
   box-shadow: 0 10px 24px rgba(31, 92, 68, 0.12);
 }
@@ -5415,6 +5401,9 @@ input[type=button] {
 }
 .hc-intro-text p + p {
   margin-top: 12px;
+}
+.hc-intro {
+  /* 下段：情報カード2枚並列 */
 }
 .hc-intro-cards {
   display: flex;
@@ -5548,8 +5537,7 @@ input[type=button] {
   border-radius: 18px;
   width: 100%;
   aspect-ratio: 4/3;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 @media screen and (max-width: 550px) {
@@ -6019,8 +6007,7 @@ input[type=button] {
   display: block;
   width: 100%;
   aspect-ratio: 1.08;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 34px;
   box-shadow: 0 26px 54px rgba(31, 92, 68, 0.18);
 }
@@ -6029,8 +6016,7 @@ input[type=button] {
   position: absolute;
   z-index: 2;
   background: rgba(255, 255, 255, 0.9);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   border: 1px solid rgba(31, 92, 68, 0.06);
   border-radius: 24px;
   box-shadow: 0 16px 36px rgba(31, 92, 68, 0.12);
@@ -6088,8 +6074,8 @@ input[type=button] {
 }
 @media screen and (max-width: 1023px) {
   .home-neo-intro-grid,
-.home-neo-story-card,
-.home-neo-recruit-panel {
+  .home-neo-story-card,
+  .home-neo-recruit-panel {
     grid-template-columns: 1fr;
   }
 }
@@ -6191,8 +6177,7 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   box-shadow: 0 16px 34px rgba(31, 92, 68, 0.12);
 }
 
@@ -6286,9 +6271,9 @@ input[type=button] {
     font-size: 34px;
   }
   .home-neo-highlights,
-.home-neo-intro,
-.home-neo-story,
-.home-neo-recruit {
+  .home-neo-intro,
+  .home-neo-story,
+  .home-neo-recruit {
     padding-bottom: 72px;
   }
   .home-neo-visual-stage {
@@ -6346,7 +6331,7 @@ input[type=button] {
     line-height: 1.35;
   }
   .home-neo-text,
-.home-neo-section-text {
+  .home-neo-section-text {
     font-size: 14px;
     line-height: 1.8;
   }
@@ -6366,20 +6351,20 @@ input[type=button] {
     max-height: 300px;
   }
   .home-neo-visual-image,
-.home-neo-story-media img,
-.home-neo-photo-card img,
-.home-neo-recruit-media img {
+  .home-neo-story-media img,
+  .home-neo-photo-card img,
+  .home-neo-recruit-media img {
     border-radius: 26px;
   }
   .home-neo-story-card,
-.home-neo-recruit-panel {
+  .home-neo-recruit-panel {
     padding: 20px;
   }
   .home-neo-highlights {
     padding: 0 0 76px;
   }
   .home-neo-trust-card,
-.home-neo-feature {
+  .home-neo-feature {
     padding: 22px 18px;
   }
 }
@@ -6687,13 +6672,13 @@ input[type=button] {
     grid-template-columns: 1fr;
   }
   .home-neo-highlights,
-.home-neo-intro,
-.home-neo-story,
-.home-neo-recruit {
+  .home-neo-intro,
+  .home-neo-story,
+  .home-neo-recruit {
     padding-bottom: 72px;
   }
   .home-neo-story-card,
-.home-neo-recruit-panel {
+  .home-neo-recruit-panel {
     border-radius: 26px;
   }
 }
@@ -6938,8 +6923,7 @@ input[type=button] {
   background: #ffffff;
   border: 8px solid #ffffff;
   box-shadow: 0 24px 48px rgba(63, 122, 40, 0.18);
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 @media screen and (max-width: 980px) {
   .home-neo-visual-image {
@@ -7125,17 +7109,17 @@ input[type=button] {
 }
 @media screen and (max-width: 1023px) {
   .home-neo-highlights,
-.home-neo-intro,
-.home-neo-story,
-.home-neo-recruit {
+  .home-neo-intro,
+  .home-neo-story,
+  .home-neo-recruit {
     padding: 80px 0;
   }
 }
 @media screen and (max-width: 767px) {
   .home-neo-highlights,
-.home-neo-intro,
-.home-neo-story,
-.home-neo-recruit {
+  .home-neo-intro,
+  .home-neo-story,
+  .home-neo-recruit {
     padding: 64px 0;
   }
 }
@@ -7427,8 +7411,8 @@ input[type=button] {
 
 @media screen and (max-width: 900px) {
   .home-neo-intro-grid,
-.home-neo-story-card,
-.home-neo-recruit-panel {
+  .home-neo-story-card,
+  .home-neo-recruit-panel {
     grid-template-columns: 1fr;
     gap: 36px;
   }
@@ -7460,8 +7444,7 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   box-shadow: 0 18px 38px rgba(63, 122, 40, 0.14);
 }
 
@@ -7471,7 +7454,7 @@ input[type=button] {
 }
 @media screen and (max-width: 767px) {
   .home-neo-photo-card img,
-.home-neo-recruit-media img {
+  .home-neo-recruit-media img {
     border-radius: 28px;
   }
 }
@@ -8047,10 +8030,8 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 @media screen and (max-width: 767px) {
   .about-neo-hero-visual-frame {
@@ -8132,8 +8113,7 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 36% 36% 36% 8%;
   box-shadow: 0 18px 38px rgba(63, 122, 40, 0.14);
 }
@@ -8692,10 +8672,8 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 @media screen and (max-width: 767px) {
   .homecare-neo-hero-visual-frame {
@@ -8785,8 +8763,7 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 36% 36% 36% 8%;
   background: #ffffff;
   box-shadow: 0 28px 56px rgba(63, 122, 40, 0.22), 0 0 0 6px #ffffff;
@@ -8980,8 +8957,7 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 @media screen and (max-width: 767px) {
@@ -9487,10 +9463,8 @@ input[type=button] {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 @media screen and (max-width: 767px) {
   .recruit-neo-hero-visual-frame {
@@ -10453,9 +10427,6 @@ input[type=button] {
   line-height: 1.7;
   transition: border-color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
 }
-.contact-neo-form .contact-input input[type=text]::-moz-placeholder, .contact-neo-form .contact-input input[type=email]::-moz-placeholder, .contact-neo-form .contact-input input[type=tel]::-moz-placeholder, .contact-neo-form .contact-input input[type=url]::-moz-placeholder, .contact-neo-form .contact-input input[type=number]::-moz-placeholder, .contact-neo-form .contact-input input[type=search]::-moz-placeholder, .contact-neo-form .contact-input select::-moz-placeholder, .contact-neo-form .contact-input textarea::-moz-placeholder {
-  color: #8a9586;
-}
 .contact-neo-form .contact-input input[type=text]::placeholder,
 .contact-neo-form .contact-input input[type=email]::placeholder,
 .contact-neo-form .contact-input input[type=tel]::placeholder,
@@ -10481,13 +10452,13 @@ input[type=button] {
 }
 @media screen and (max-width: 767px) {
   .contact-neo-form .contact-input input[type=text],
-.contact-neo-form .contact-input input[type=email],
-.contact-neo-form .contact-input input[type=tel],
-.contact-neo-form .contact-input input[type=url],
-.contact-neo-form .contact-input input[type=number],
-.contact-neo-form .contact-input input[type=search],
-.contact-neo-form .contact-input select,
-.contact-neo-form .contact-input textarea {
+  .contact-neo-form .contact-input input[type=email],
+  .contact-neo-form .contact-input input[type=tel],
+  .contact-neo-form .contact-input input[type=url],
+  .contact-neo-form .contact-input input[type=number],
+  .contact-neo-form .contact-input input[type=search],
+  .contact-neo-form .contact-input select,
+  .contact-neo-form .contact-input textarea {
     font-size: 14px;
     padding: 12px 14px;
   }
@@ -10593,8 +10564,7 @@ input[type=button] {
 .contact-neo-form.wpcf7 input[type=submit],
 .contact-neo-form .wpcf7 input[type=submit], .contact-neo-form input[type=submit] {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   display: inline-block;
   width: auto;
   max-width: none;
@@ -10620,7 +10590,7 @@ input[type=button] {
 }
 @media screen and (max-width: 767px) {
   .contact-neo-form.wpcf7 input[type=submit],
-.contact-neo-form .wpcf7 input[type=submit], .contact-neo-form input[type=submit] {
+  .contact-neo-form .wpcf7 input[type=submit], .contact-neo-form input[type=submit] {
     min-width: 0;
     width: 100%;
     padding: 14px 24px;
@@ -10629,8 +10599,7 @@ input[type=button] {
 .contact-neo-form.wpcf7 .wpcf7-previous,
 .contact-neo-form .wpcf7 .wpcf7-previous, .contact-neo-form .wpcf7-previous {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   display: inline-block;
   width: auto;
   max-width: none;
@@ -10655,7 +10624,7 @@ input[type=button] {
 }
 @media screen and (max-width: 767px) {
   .contact-neo-form.wpcf7 .wpcf7-previous,
-.contact-neo-form .wpcf7 .wpcf7-previous, .contact-neo-form .wpcf7-previous {
+  .contact-neo-form .wpcf7 .wpcf7-previous, .contact-neo-form .wpcf7-previous {
     min-width: 0;
     width: 100%;
     padding: 14px 24px;
@@ -11007,4 +10976,5 @@ input[type=button] {
     background-size: 56px 56px, 44px 44px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

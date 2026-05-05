@@ -22,7 +22,7 @@
                 <div class="recruit-neo-hero-visual">
                     <span class="recruit-neo-hero-visual-wash" aria-hidden="true"></span>
                     <div class="recruit-neo-hero-visual-frame">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/recruit/hero.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/recruit/recruit-hero-team.png"
                             alt="チームで支える、nextformの仲間">
                     </div>
                     <span class="recruit-neo-hero-visual-dot recruit-neo-hero-visual-dot-a" aria-hidden="true"></span>

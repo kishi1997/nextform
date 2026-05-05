@@ -488,7 +488,7 @@ div.colorbox img {
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url(../img/top/top_service_bg.png);
+    background-image: url(../img/top/top-service-background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 0;
@@ -1319,7 +1319,7 @@ div.colorbox img {
 .cta-c {
   background:
     linear-gradient(135deg, rgba(31, 92, 68, 0.9), rgba(47, 143, 103, 0.82)),
-    url(../img/contact_bg.png);
+    url(../img/contact-cta-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px 20px 240px;
@@ -2794,7 +2794,7 @@ page-recruit
     content: "";
     width: 100%;
     height: 100px;
-    background-image: url(../img/top/top_service_bg.png);
+    background-image: url(../img/top/top-service-background.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     top: 1px;
@@ -2905,7 +2905,7 @@ page-recruit
 }
 
 .apply {
-  background-image: url(../img/recruit/entry.jpg);
+  background-image: url(../img/recruit/recruit-entry-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4976,11 +4976,11 @@ textarea {
   }
 
   &--recruit {
-    background-image: url("../img/recruit/kv_low.jpeg");
+    background-image: url("../img/recruit/recruit-hero-background.jpeg");
   }
 
   &--contact {
-    background-image: url("../img/contact/kv_low.jpeg");
+    background-image: url("../img/contact/contact-hero-background.jpeg");
   }
 }
 

@@ -5,7 +5,7 @@
         <div class="container3 footer-d-inner">
             <div class="footer-d-content">
                 <div class="footer-d-logo"><img
-                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_footer.png" alt="nextform">
+                        src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-footer.png" alt="nextform">
                 </div>
                 <div class="footer-d-address">〒179-0083　東京都練馬区平和台3丁目30番19号</div>
             </div>

@@ -22,7 +22,7 @@
                 <div class="homecare-neo-hero-visual">
                     <span class="homecare-neo-hero-visual-wash" aria-hidden="true"></span>
                     <div class="homecare-neo-hero-visual-frame">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/hero.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-hero-consultation.png"
                             alt="ご自宅で利用者と相談する訪問看護スタッフ">
                     </div>
                     <span class="homecare-neo-hero-visual-dot homecare-neo-hero-visual-dot-a" aria-hidden="true"></span>
@@ -54,7 +54,7 @@
 
                 <div class="homecare-neo-intro-side">
                     <div class="homecare-neo-photo-card">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/intro_young.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-intro-consultation.png"
                             alt="訪問看護の様子">
                     </div>
                 </div>
@@ -96,7 +96,7 @@
             <div class="homecare-neo-services-grid">
                 <article class="homecare-neo-service">
                     <div class="homecare-neo-service-media">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare1_young.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-health-check.png"
                             alt="健康状態の確認・観察">
                     </div>
                     <span class="homecare-neo-service-num">01</span>
@@ -104,7 +104,7 @@
                 </article>
                 <article class="homecare-neo-service">
                     <div class="homecare-neo-service-media">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare2_young.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-nursing-care.png"
                             alt="疾患・障がいに対する看護">
                     </div>
                     <span class="homecare-neo-service-num">02</span>
@@ -112,7 +112,7 @@
                 </article>
                 <article class="homecare-neo-service">
                     <div class="homecare-neo-service-media">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare3.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-family-support.png"
                             alt="ご家族への相談対応と技術指導">
                     </div>
                     <span class="homecare-neo-service-num">03</span>
@@ -120,7 +120,7 @@
                 </article>
                 <article class="homecare-neo-service">
                     <div class="homecare-neo-service-media">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare4_young.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-living-support.png"
                             alt="療養環境の整備と生活援助">
                     </div>
                     <span class="homecare-neo-service-num">04</span>
@@ -128,7 +128,7 @@
                 </article>
                 <article class="homecare-neo-service">
                     <div class="homecare-neo-service-media">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare5_young.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-rehabilitation.png"
                             alt="ご自宅でのリハビリテーション">
                     </div>
                     <span class="homecare-neo-service-num">05</span>
@@ -136,7 +136,7 @@
                 </article>
                 <article class="homecare-neo-service">
                     <div class="homecare-neo-service-media">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare6.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/homecare/homecare-mental-health.png"
                             alt="こころの健康への支援">
                     </div>
                     <span class="homecare-neo-service-num">06</span>

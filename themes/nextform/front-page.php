@@ -28,7 +28,7 @@
                     <div class="home-neo-visual-stage">
                         <span class="home-neo-visual-wash" aria-hidden="true"></span>
                         <div class="home-neo-visual-frame">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/home_hero_gpt2_v2.png"
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/top-hero-consultation.png"
                                 alt="若い利用者と支援スタッフが落ち着いた空間で相談する様子" class="home-neo-visual-image">
                         </div>
                         <div class="home-neo-visual-panel home-neo-visual-panel-top">
@@ -81,7 +81,7 @@
 
                 <div class="home-neo-intro-side">
                     <div class="home-neo-photo-card">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/home_service_gpt2.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/top-service-consultation.png"
                             alt="支援計画を一緒に確認する様子">
                     </div>
                 </div>
@@ -111,7 +111,7 @@
         <div class="home-neo-shell down-to-top">
             <div class="home-neo-story-card">
                 <div class="home-neo-story-media">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/home_about_gpt2.png"
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/top-about-support.png"
                         alt="利用者の話に耳を傾けるスタッフ">
                 </div>
                 <div class="home-neo-story-copy">
@@ -138,7 +138,7 @@
                     <a href="<?php echo esc_url( home_url( '/recruit' ) ); ?>" class="home-neo-link">採用情報を見る</a>
                 </div>
                 <div class="home-neo-recruit-media">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/home_recruit_gpt2.png"
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/top/top-recruit-team.png"
                         alt="若いスタッフチームのイメージ">
                 </div>
             </div>

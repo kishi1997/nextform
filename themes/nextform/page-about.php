@@ -22,7 +22,7 @@
                 <div class="about-neo-hero-visual">
                     <span class="about-neo-hero-visual-wash" aria-hidden="true"></span>
                     <div class="about-neo-hero-visual-frame">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about/hero.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about/about-hero-support.png"
                             alt="多様な暮らしに寄り添うnextformの支援">
                     </div>
                     <span class="about-neo-hero-visual-dot about-neo-hero-visual-dot-a" aria-hidden="true"></span>
@@ -42,7 +42,7 @@
         <div class="about-neo-shell down-to-top">
             <div class="about-neo-concept-card">
                 <div class="about-neo-concept-media">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about/about.png"
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about/about-concept.png"
                         alt="nextformの想い">
                 </div>
                 <div class="about-neo-concept-copy">
