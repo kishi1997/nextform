@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - heading "wed" [level=1] [ref=e4]:
+        - link "wed" [ref=e5] [cursor=pointer]:
+          - /url: http://localhost:8080/
+          - img "wed" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "nextformについて" [ref=e10] [cursor=pointer]:
+              - /url: http://localhost:8080/about
+          - listitem [ref=e11]:
+            - link "訪問看護について" [ref=e12] [cursor=pointer]:
+              - /url: http://localhost:8080/homecare
+          - listitem [ref=e13]:
+            - link "採用情報" [ref=e14] [cursor=pointer]:
+              - /url: http://localhost:8080/recruit
+        - list [ref=e15]:
+          - listitem [ref=e17]:
+            - link " お問い合わせ" [ref=e18] [cursor=pointer]:
+              - /url: http://localhost:8080/contact
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - paragraph [ref=e24]: MENTAL HEALTH HOME CARE
+        - heading "地域で、 こころの回復 を支える。" [level=2] [ref=e25]:
+          - text: 地域で、
+          - generic [ref=e26]: こころの回復
+          - text: を支える。
+        - paragraph [ref=e27]: nextformは、精神科訪問看護と生活支援を通じて、若い世代の利用者さまが自分らしいペースを取り戻せる環境を整えます。専門職が医療と日常のあいだに入り、継続的に伴走します。
+        - generic [ref=e28]:
+          - link "相談してみる" [ref=e29] [cursor=pointer]:
+            - /url: http://localhost:8080/contact
+          - link "訪問看護について" [ref=e30] [cursor=pointer]:
+            - /url: http://localhost:8080/homecare
+      - generic [ref=e32]:
+        - img "若い利用者と支援スタッフが落ち着いた空間で相談する様子" [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]: Professional Care
+          - strong [ref=e38]: 医療と生活支援を横断して伴走
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - paragraph [ref=e42]: FEATURES
+        - heading "専門性と話しやすさを、 どちらも大切にした支援です。" [level=2] [ref=e43]:
+          - text: 専門性と話しやすさを、
+          - text: どちらも大切にした支援です。
+      - generic "支援の特長" [ref=e44]:
+        - article [ref=e45]:
+          - generic [ref=e46]: Support
+          - heading "精神科訪問看護" [level=3] [ref=e47]
+          - paragraph [ref=e48]: 看護師・作業療法士が連携し、症状管理から生活調整まで一体で支援します。
+        - article [ref=e49]:
+          - generic [ref=e50]: Approach
+          - heading "若い世代に届く関わり方" [level=3] [ref=e51]
+          - paragraph [ref=e52]: 構えすぎずに相談できる距離感を大切にし、無理のない継続支援を設計します。
+        - article [ref=e53]:
+          - generic [ref=e54]: Style
+          - heading "自宅を中心に伴走" [level=3] [ref=e55]
+          - paragraph [ref=e56]: 住み慣れた環境で、体調・服薬・対人不安・生活リズムまで丁寧に整えます。
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: SERVICE
+          - heading "住み慣れた場所で、 安心して相談できる支援体制" [level=2] [ref=e62]:
+            - text: 住み慣れた場所で、
+            - text: 安心して相談できる支援体制
+          - paragraph [ref=e63]: 看護師・理学療法士・作業療法士が連携し、医療的なケアだけでなく生活の整え方や対人面の不安にも対応します。若い利用者さまにとって距離が近く、話しやすい支援を目指しています。
+          - link "訪問看護について詳しく見る →" [ref=e64] [cursor=pointer]:
+            - /url: http://localhost:8080/homecare
+        - img "支援計画を一緒に確認する様子" [ref=e67]
+      - generic [ref=e68]:
+        - article [ref=e69]:
+          - generic [ref=e70]: "01"
+          - heading "精神科訪問看護" [level=3] [ref=e71]
+          - paragraph [ref=e72]: 服薬や体調の確認だけでなく、不安の整理や再発予防も含めて継続的に支えます。
+        - article [ref=e73]:
+          - generic [ref=e74]: "02"
+          - heading "生活リズム支援" [level=3] [ref=e75]
+          - paragraph [ref=e76]: 起床や通院、就労準備など、日々の生活を安定させるための伴走を行います。
+        - article [ref=e77]:
+          - generic [ref=e78]: "03"
+          - heading "相談しやすい関係性" [level=3] [ref=e79]
+          - paragraph [ref=e80]: 若い世代の利用者さまが構えずに話せる空気感を大切にし、支援を設計します。
+    - generic [ref=e83]:
+      - img "利用者の話に耳を傾けるスタッフ" [ref=e85]
+      - generic [ref=e86]:
+        - paragraph [ref=e87]: ABOUT
+        - heading "支援の中心にあるのは、 その人らしさです。" [level=2] [ref=e88]:
+          - text: 支援の中心にあるのは、
+          - text: その人らしさです。
+        - paragraph [ref=e89]: nextformは「支援される人」ではなく「自分の意思で暮らしを選ぶ人」として向き合います。制度や医療の枠だけに閉じず、日々の感情や生活感覚まで含めて支えることを重視しています。
+        - link "nextformについて知る →" [ref=e90] [cursor=pointer]:
+          - /url: http://localhost:8080/about
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: RECRUIT
+        - heading "専門性とやさしさを、 同時に育てるチームへ。" [level=2] [ref=e96]:
+          - text: 専門性とやさしさを、
+          - text: 同時に育てるチームへ。
+        - paragraph [ref=e97]: 福祉や医療の経験だけではなく、相手の言葉を受け止める姿勢を大切にしています。若い世代の利用者さまに寄り添いながら、支援の質を高めていける仲間を募集しています。
+        - link "採用情報を見る →" [ref=e98] [cursor=pointer]:
+          - /url: http://localhost:8080/recruit
+      - img "若いスタッフチームのイメージ" [ref=e100]
+    - generic [ref=e102]:
+      - heading "CONTACT お問い合わせ" [level=2] [ref=e104]
+      - generic [ref=e105]:
+        - paragraph [ref=e107]:
+          - text: 訪問看護やサービスについてのご相談など、
+          - text: こちらからお気軽にご連絡ください。
+        - generic [ref=e108]:
+          - link " 047-314-1520":
+            - /url: tel:047-314-1520
+            - paragraph:  047-314-1520
+          - link " お問い合わせ" [ref=e109] [cursor=pointer]:
+            - /url: http://localhost:8080/contact
+            - paragraph [ref=e110]:  お問い合わせ
+        - generic [ref=e111]:
+          - text: zoomによるオンライン見学も実施中！
+          - text: ご希望の方はお問い合わせフォームよりご連絡ください。
+  - contentinfo [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - img "nextform" [ref=e117]
+        - generic [ref=e118]: 〒179-0083 東京都練馬区平和台3丁目30番19号
+      - generic [ref=e119]:
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - link "nextformについて" [ref=e122] [cursor=pointer]:
+              - /url: http://localhost:8080/about
+          - listitem [ref=e123]:
+            - link "グループホームについて" [ref=e124] [cursor=pointer]:
+              - /url: http://localhost:8080/group-home
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link "採用情報" [ref=e127] [cursor=pointer]:
+              - /url: http://localhost:8080/recruit
+          - listitem [ref=e128]:
+            - link "お問い合わせ" [ref=e129] [cursor=pointer]:
+              - /url: http://localhost:8080/contact
+          - listitem [ref=e130]:
+            - link "プライバシーポリシー" [ref=e131] [cursor=pointer]:
+              - /url: http://localhost:8080/privacy-policy
+    - paragraph [ref=e133]: ©︎2026 nextform Co., Ltd.

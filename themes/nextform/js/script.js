@@ -21,7 +21,7 @@ jQuery(function ($) {
     $(".header-f-nav").fadeToggle(500);
   });
 
-  $(window).scroll(function () {
+  function setScrollIn() {
     $(".left-to-right, .down-to-top, .fade").each(function () {
       var elemPos = $(this).offset().top;
       var scroll = $(window).scrollTop();
@@ -30,7 +30,10 @@ jQuery(function ($) {
         $(this).addClass("scrollin");
       }
     });
-  });
+  }
+
+  $(window).on("scroll", setScrollIn);
+  setScrollIn();
 
   speed = 1000;
   easing = "easeInOutCubic";

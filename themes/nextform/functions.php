@@ -26,7 +26,7 @@ function nextform_head() {
 	// Google Fonts
 	echo '<link rel="preconnect" href="https://fonts.googleapis.com">' . "\n";
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
-	echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">' . "\n";
+	echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@600&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">'."\n";
 
 	// Favicon
 	echo '<link rel="icon" href="' . get_template_directory_uri() . '/favicon.ico">' . "\n";
