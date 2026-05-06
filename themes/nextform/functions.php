@@ -86,6 +86,54 @@ function nextform_title_separator() {
 }
 add_filter( 'document_title_separator', 'nextform_title_separator' );
 
+function nextform_get_meta_description() {
+	if ( is_front_page() ) {
+		return 'nextformは、精神科訪問看護と生活支援を通じて、若い世代のこころの回復と自分らしい暮らしを支える福祉サービスです。';
+	}
+
+	if ( is_page( 'about' ) ) {
+		return 'nextformの理念、代表メッセージ、会社概要をご紹介します。地域で暮らす一人ひとりの選択に寄り添い、医療と生活支援を横断して伴走します。';
+	}
+
+	if ( is_page( 'homecare' ) ) {
+		return 'nextformの訪問看護サービスについて、対象となる方、サービス内容、ご利用の流れを紹介します。看護師やリハビリ専門職がご自宅での療養を支えます。';
+	}
+
+	if ( is_page( 'recruit' ) ) {
+		return 'nextformの採用情報です。訪問看護・通所サービスを通じて、利用者さまの暮らしに寄り添う仲間を募集しています。';
+	}
+
+	if ( is_page( 'contact' ) ) {
+		return 'nextformへのお問い合わせページです。訪問看護やサービスについてのご相談はこちらからご連絡ください。';
+	}
+
+	if ( is_singular() ) {
+		$excerpt = get_the_excerpt();
+		if ( $excerpt ) {
+			return wp_trim_words( wp_strip_all_tags( $excerpt ), 80, '' );
+		}
+	}
+
+	return get_bloginfo( 'description' );
+}
+
+function nextform_seo_meta() {
+	$description = nextform_get_meta_description();
+	if ( $description ) {
+		echo '<meta name="description" content="' . esc_attr( $description ) . '">' . "\n";
+	}
+
+	if ( is_page( array( 'contact-confirm', 'thanks' ) ) ) {
+		echo '<meta name="robots" content="noindex, nofollow">' . "\n";
+	}
+
+	if ( is_singular() || is_front_page() ) {
+		$canonical = is_front_page() ? home_url( '/' ) : get_permalink();
+		echo '<link rel="canonical" href="' . esc_url( $canonical ) . '">' . "\n";
+	}
+}
+add_action( 'wp_head', 'nextform_seo_meta', 5 );
+
 
 //////////////////////////////////////////////////
 // カスタムメニュー（削除不可）
@@ -148,23 +196,18 @@ function nextform_ogp() {
 		if ( has_post_thumbnail() ) {
 			$ogp_image = get_the_post_thumbnail_url( get_the_ID(), 'large' );
 		} else {
-			$ogp_image = get_template_directory_uri() . '/img/ogp_default.jpg';
+			$ogp_image = get_template_directory_uri() . '/img/logo-footer.png';
 		}
 
 		// OGP説明文
-		$ogp_desc = '';
-		if ( $post->post_excerpt ) {
-			$ogp_desc = esc_attr( wp_strip_all_tags( $post->post_excerpt ) );
-		} elseif ( $post->post_content ) {
-			$ogp_desc = esc_attr( wp_trim_words( wp_strip_all_tags( $post->post_content ), 80 ) );
-		}
+		$ogp_desc = nextform_get_meta_description();
 
 		echo '<meta property="og:title" content="' . esc_attr( get_the_title() ) . '">' . "\n";
-		echo '<meta property="og:type" content="article">' . "\n";
+		echo '<meta property="og:type" content="' . ( is_page() ? 'website' : 'article' ) . '">' . "\n";
 		echo '<meta property="og:url" content="' . esc_url( get_permalink() ) . '">' . "\n";
 		echo '<meta property="og:image" content="' . esc_url( $ogp_image ) . '">' . "\n";
 		if ( $ogp_desc ) {
-			echo '<meta property="og:description" content="' . $ogp_desc . '">' . "\n";
+			echo '<meta property="og:description" content="' . esc_attr( $ogp_desc ) . '">' . "\n";
 		}
 		echo '<meta property="og:site_name" content="' . esc_attr( get_bloginfo( 'name' ) ) . '">' . "\n";
 		echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
@@ -172,12 +215,12 @@ function nextform_ogp() {
 		wp_reset_postdata();
 	} else {
 		// トップページ・アーカイブ等
-		$ogp_image = get_template_directory_uri() . '/img/ogp_default.jpg';
+		$ogp_image = get_template_directory_uri() . '/img/logo-footer.png';
 		echo '<meta property="og:title" content="' . esc_attr( get_bloginfo( 'name' ) ) . '">' . "\n";
 		echo '<meta property="og:type" content="website">' . "\n";
 		echo '<meta property="og:url" content="' . esc_url( home_url( '/' ) ) . '">' . "\n";
 		echo '<meta property="og:image" content="' . esc_url( $ogp_image ) . '">' . "\n";
-		echo '<meta property="og:description" content="' . esc_attr( get_bloginfo( 'description' ) ) . '">' . "\n";
+		echo '<meta property="og:description" content="' . esc_attr( nextform_get_meta_description() ) . '">' . "\n";
 		echo '<meta property="og:site_name" content="' . esc_attr( get_bloginfo( 'name' ) ) . '">' . "\n";
 		echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
 	}

@@ -15,7 +15,7 @@
                             href="<?php echo esc_url( home_url( '/about' ) ); ?>">nextformについて</a>
                     </li>
                     <li class="footer-d-item"><a class="footer-d-link"
-                            href="<?php echo esc_url( home_url( '/homecare' ) ); ?>">訪問介護について</a></li>
+                            href="<?php echo esc_url( home_url( '/homecare' ) ); ?>">訪問看護について</a></li>
                 </ul>
                 <ul class="footer-d-menu footer-d-menu-r">
                     <li class="footer-d-item"><a class="footer-d-link"

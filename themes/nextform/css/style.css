@@ -2297,14 +2297,14 @@ div.colorbox img {
 low
 =================================================*/
 .low-kv {
-  background: url(../img/cmn/kv_low.jpeg) no-repeat center;
+  background: url(../img/contact/contact-hero-background.jpeg) no-repeat center;
   background-size: cover;
   padding-top: 204px;
   padding-bottom: 204px;
   margin-top: 80px;
 }
 .low-post {
-  background: url(../img/cmn/kv_low.jpeg) no-repeat center;
+  background: url(../img/contact/contact-hero-background.jpeg) no-repeat center;
   background-size: cover;
   padding-top: 204px;
   padding-bottom: 204px;
@@ -2749,7 +2749,7 @@ page-recruit
 }
 @media screen and (max-width: 767px) {
   .flow::before {
-    background-image: url(../img/top/top_service_bg_sp.png);
+    background-image: url(../img/top/top-service-background.png);
     height: 70px;
   }
 }
@@ -2865,7 +2865,7 @@ page-recruit
 }
 @media screen and (max-width: 767px) {
   .apply {
-    background-image: url(../img/recruit/entry_sp.jpg);
+    background-image: url(../img/recruit/recruit-entry-background.jpg);
   }
 }
 .apply-btn {
@@ -3519,7 +3519,7 @@ textarea {
 }
 
 .entry-top-img {
-  background-image: url("../img/row/top_bg.jpg");
+  background-image: url("../img/top/top-service-background.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -4003,7 +4003,8 @@ textarea {
 .secondary-archive-list li a::before {
   position: absolute;
   content: "";
-  background: url(../img/common/arrow.svg) center center/contain no-repeat;
+  background: currentColor;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
   width: 7px;
   height: 13px;
   top: 50%;
@@ -4037,11 +4038,11 @@ textarea {
 }
 
 .entry-header-category {
-  background: url(../img/category/head.png) center center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(139, 211, 168, 0.92), rgba(47, 143, 103, 0.86));
 }
 @media screen and (max-width: 767px) {
   .entry-header-category {
-    background: url(../img/category/head-sp.png) center center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(139, 211, 168, 0.92), rgba(47, 143, 103, 0.86));
   }
 }
 
@@ -4870,7 +4871,7 @@ textarea {
   z-index: 1;
 }
 .ab-hero--group-home {
-  background-image: url("../img/group-home/kv_low.jpeg");
+  background-image: url("../img/homecare/homecare-hero-consultation.png");
 }
 .ab-hero--recruit {
   background-image: url("../img/recruit/recruit-hero-background.jpeg");

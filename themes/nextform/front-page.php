@@ -10,10 +10,10 @@
             <div class="home-neo-card">
                 <div class="home-neo-copy">
                     <p class="home-neo-eyebrow">MENTAL HEALTH HOME CARE</p>
-                    <h2 class="home-neo-title">
+                    <h1 class="home-neo-title">
                         地域で、<br>
                         <span>こころの回復</span>を支える。
-                    </h2>
+                    </h1>
                     <p class="home-neo-text">
                         nextformは、精神科訪問看護と生活支援を通じて、若い世代の利用者さまが自分らしいペースを取り戻せる環境を整えます。専門職が医療と日常のあいだに入り、継続的に伴走します。
                     </p>

@@ -2381,14 +2381,14 @@ low
 =================================================*/
 .low {
   &-kv {
-    background: url(../img/cmn/kv_low.jpeg) no-repeat center;
+    background: url(../img/contact/contact-hero-background.jpeg) no-repeat center;
     background-size: cover;
     padding-top: 204px;
     padding-bottom: 204px;
     margin-top: 80px;
   }
   &-post {
-    background: url(../img/cmn/kv_low.jpeg) no-repeat center;
+    background: url(../img/contact/contact-hero-background.jpeg) no-repeat center;
     background-size: cover;
     padding-top: 204px;
     padding-bottom: 204px;
@@ -2799,7 +2799,7 @@ page-recruit
     background-size: 100% 100%;
     top: 1px;
     @include mq(sm) {
-      background-image: url(../img/top/top_service_bg_sp.png);
+      background-image: url(../img/top/top-service-background.png);
       height: 70px;
     }
   }
@@ -2911,7 +2911,7 @@ page-recruit
   background-size: cover;
   padding: 189px 20px;
   @include mq(sm) {
-    background-image: url(../img/recruit/entry_sp.jpg);
+    background-image: url(../img/recruit/recruit-entry-background.jpg);
   }
   &-btn {
     background-color: rgba(255, 255, 255, 0.92);
@@ -3518,7 +3518,7 @@ textarea {
 }
 
 .entry-top-img {
-  background-image: url("../img/row/top_bg.jpg");
+  background-image: url("../img/top/top-service-background.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -4044,7 +4044,8 @@ textarea {
     &::before {
       position: absolute;
       content: "";
-      background: url(../img/common/arrow.svg) center center / contain no-repeat;
+      background: currentColor;
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
       width: 7px;
       height: 13px;
       top: 50%;
@@ -4082,10 +4083,10 @@ textarea {
 }
 
 .entry-header-category {
-  background: url(../img/category/head.png) center center / cover no-repeat;
+  background: linear-gradient(135deg, rgba(139, 211, 168, 0.92), rgba(47, 143, 103, 0.86));
 
   @include mq(sm) {
-    background: url(../img/category/head-sp.png) center center / cover no-repeat;
+    background: linear-gradient(135deg, rgba(139, 211, 168, 0.92), rgba(47, 143, 103, 0.86));
   }
 }
 
@@ -4972,7 +4973,7 @@ textarea {
   }
 
   &--group-home {
-    background-image: url("../img/group-home/kv_low.jpeg");
+    background-image: url("../img/homecare/homecare-hero-consultation.png");
   }
 
   &--recruit {
